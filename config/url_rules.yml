@@ -1,0 +1,8 @@
+- match: !ruby/regexp '/youtube\.com\/watch/i'
+  rule: query-param
+  subject: v
+  format: 'youtube-%{id}'
+- match: !ruby/regexp '/youtu\.be\/([[[:alnum:]]_-]{8,})/i'
+  rule: split-path
+  subject: 1
+  format: 'youtube-%{id}'

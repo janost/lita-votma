@@ -1,0 +1,21 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+  TargetRubyVersion: 2.3
+
+Metrics/AbcSize:
+  Max: 40
+
+Metrics/ClassLength:
+  Max: 200
+
+Metrics/MethodLength:
+  Max: 40
+
+Style/ClassVars:
+  Exclude:
+    - 'lib/lita/handlers/votma.rb'
+
+Style/FileName:
+  Exclude:
+    - 'lib/lita-votma.rb'

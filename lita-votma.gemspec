@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_runtime_dependency 'lita', '>= 4.7'
-  s.add_runtime_dependency 'activerecord', '~> 5.0.0.rc2'
-  s.add_runtime_dependency 'activesupport', '~> 5.0.0.rc2'
+  s.add_runtime_dependency 'activerecord', '~> 5.0'
+  s.add_runtime_dependency 'activesupport', '~> 5.0'
   s.add_runtime_dependency 'addressable', '~> 2.4'
   s.add_runtime_dependency 'sqlite3', '~> 1.3.11'
 
@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry-byebug'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rack-test'
-  s.add_development_dependency 'rspec', '>= 3.0.0'
-  s.add_development_dependency 'rubocop', '~> 0.40.0'
+  s.add_development_dependency 'rspec', '>= 3.4'
+  s.add_development_dependency 'rubocop', '~> 0.41'
 end
